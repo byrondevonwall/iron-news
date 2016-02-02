@@ -1,32 +1,74 @@
 /*********************************************************************
 
 *********************************************************************/
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: verdana, sans-serif;
+}
+
+header {
+  background-color: lightslategrey;
+  width: 85%;
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 5px 0 5px 20px;
+}
+
+ul li {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-color: white;
+  padding-right: 5px;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-/*********************************************************************
+aside {
+  padding: 0;
+  margin: 5px 10px 5px 0;
+  float: right;
+}
 
+/*********************************************************************
+class-selectors
 *********************************************************************/
 
+.sitename {
+display: inline-block;
+font-size: 1em;
+line-height: 0;
+padding: 0 0 0 15px;
+margin: 0;
+font-weight: bold;
+}
 
 /*********************************************************************
 id-selectors
 *********************************************************************/
-#logo {
-  padding: 0 10px 0 20px;
-}
- #logo a {
+
+ #logo{
+   float:left;
+   color: white;
+   border-style: solid;
+   text-align: center;
+   font-weight: bold;
+   margin: 5px 5px;
+   width: 20px;
    border-width: 1px;
-   border-color: black;
+   border-color: white;
  }
 
 

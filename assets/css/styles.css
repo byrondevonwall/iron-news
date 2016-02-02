@@ -20,7 +20,7 @@ ul {
   margin: 5px 0 5px 20px;
 }
 
-ul li {
+nav ul li {
   display: inline-block;
   border-style: solid;
   border-width: 1px;
@@ -62,14 +62,51 @@ font-weight: bold;
 }
 
 .bodycolor {
-  background-color: lavender;
+  background-color: whitesmoke;
   width: 85%;
   margin: 0 7.5% 0 7.5%;
 }
 
 .contentlist a {
   font-size: .75em;
-  color: gainsboro;
+  color: rgb(130,130,130);
+}
+.contentlist ol {
+  color: rgb(130,130,130);
+}
+.contentlist ol li {
+  margin: -10px 0;
+padding: -10px 0;
+}
+
+.contentlist ul li {
+  display: inline-block;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.contentlist ul li:nth-last-child(-n+2) {
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-color: rgb(130,130,130);
+}
+
+.contentlist ul li:last-child {
+  border-style: none;
+}
+
+.contentlist ul li{
+  color: rgb(140,140,140);
+  font-size: .75em;
+  margin: -10px 0;
+  padding: -10px 0;
+}
+
+.linkname {
+  color: black;
 }
 
 /*********************************************************************

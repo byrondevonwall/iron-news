@@ -74,6 +74,11 @@ font-weight: bold;
 .contentlist ol {
   color: rgb(130,130,130);
 }
+
+.contentlist ul {
+  margin: -4px 0;
+}
+
 .contentlist ol li {
   margin: -10px 0;
 padding: -10px 0;

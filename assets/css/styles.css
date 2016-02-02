@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: lightslategrey;
-  width: 85%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -32,6 +32,10 @@ ul li {
   margin: 0;
 }
 
+nav ul li:last-child{
+  border: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -41,6 +45,8 @@ aside {
   margin: 5px 10px 5px 0;
   float: right;
 }
+
+
 
 /*********************************************************************
 class-selectors
@@ -53,6 +59,17 @@ line-height: 0;
 padding: 0 0 0 15px;
 margin: 0;
 font-weight: bold;
+}
+
+.bodycolor {
+  background-color: lavender;
+  width: 85%;
+  margin: 0 7.5% 0 7.5%;
+}
+
+.contentlist a {
+  font-size: .75em;
+  color: gainsboro;
 }
 
 /*********************************************************************

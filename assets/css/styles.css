@@ -46,6 +46,9 @@ aside {
   float: right;
 }
 
+img {
+  width: 15px;
+}
 
 
 /*********************************************************************
@@ -76,7 +79,7 @@ font-weight: bold;
 }
 
 .contentlist ul {
-  margin: -4px 0;
+  margin: -4px 0 0 21px;
 }
 
 .contentlist ol li {

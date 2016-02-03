@@ -1,13 +1,15 @@
 /*********************************************************************
-
+element selectors
 *********************************************************************/
 body {
   font-family: verdana, sans-serif;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 84%;
   background-color: lightslategrey;
-  width: 100%;
   display: inline-block;
 }
 
@@ -51,11 +53,16 @@ img {
 }
 
 footer {
+  position: fixed;
+  bottom: -100px;
+  background-color: whitesmoke;
+  width: 84%;
   border-style: solid;
   border-left: none;
   border-bottom: none;
   border-right: none;
   border-color: rgb(130,130,130);
+  padding: 0 0 80px 0;
 }
 footer ul {
   margin: 20px 0 0 270px;
@@ -93,6 +100,10 @@ font-weight: bold;
   background-color: whitesmoke;
   width: 85%;
   margin: 0 7.5% 0 7.5%;
+}
+
+.contentlist {
+  margin: 30px 0 0 0;
 }
 
 .contentlist a {
@@ -144,7 +155,7 @@ font-weight: bold;
 .search {
   color: rgb(140,140,140);
   margin: 0 0 0 460px;
-  padding: 50px 0 50px 0;
+  padding: 20px 0 50px 0;
 }
 
 /*********************************************************************
